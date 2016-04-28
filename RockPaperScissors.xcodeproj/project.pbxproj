@@ -15,6 +15,7 @@
 		F831799B1CD1C76D00FBB7FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F83179991CD1C76D00FBB7FC /* LaunchScreen.storyboard */; };
 		F83179A61CD1C76D00FBB7FC /* RockPaperScissorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83179A51CD1C76D00FBB7FC /* RockPaperScissorsTests.swift */; };
 		F83179B11CD1C76D00FBB7FC /* RockPaperScissorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83179B01CD1C76D00FBB7FC /* RockPaperScissorsUITests.swift */; };
+		F83179C51CD1CDF000FBB7FC /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83179C41CD1CDF000FBB7FC /* GameController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		F83179AC1CD1C76D00FBB7FC /* RockPaperScissorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RockPaperScissorsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F83179B01CD1C76D00FBB7FC /* RockPaperScissorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperScissorsUITests.swift; sourceTree = "<group>"; };
 		F83179B21CD1C76D00FBB7FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F83179C41CD1CDF000FBB7FC /* GameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				F831798D1CD1C76D00FBB7FC /* AppDelegate.swift */,
 				F831798F1CD1C76D00FBB7FC /* ViewController.swift */,
+				F83179C41CD1CDF000FBB7FC /* GameController.swift */,
 				F83179911CD1C76D00FBB7FC /* Main.storyboard */,
 				F83179971CD1C76D00FBB7FC /* Assets.xcassets */,
 				F83179991CD1C76D00FBB7FC /* LaunchScreen.storyboard */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F83179961CD1C76D00FBB7FC /* RockPaperScissors.xcdatamodeld in Sources */,
+				F83179C51CD1CDF000FBB7FC /* GameController.swift in Sources */,
 				F83179901CD1C76D00FBB7FC /* ViewController.swift in Sources */,
 				F831798E1CD1C76D00FBB7FC /* AppDelegate.swift in Sources */,
 			);
